@@ -4,30 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.png" />
   <title>Santos Pierre</title>
   <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700&display=swap" rel="stylesheet"> 
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body class="bg-gray-200">
   <div class="container">
-    <div class="info">
-      <div>
-        <img src="" alt="">
+    <div class="info w-1/3 flex flex-col rounded-xl bg-white shadow-lg">
+      <div class="info-text flex flex-col justify-end items-center">
+        <div class="info-img relative w-full mb-8">
+          <img class="rounded-xl w-2/4 absolute" src="./assets/img/photo.jpg" alt="">
+        </div>
+        <h2 class="text-4xl my-5">Pierre <strong>Santos</strong></h2>
+        <div class="info-job bg-gray-100 rounded-full px-4 py-1 mb-5">
+          <p class="text-xl">Full-Stack Developer</p>
+        </div>
+        <div class="info-social text-xl flex justify-around w-1/3 p-4 mb-4">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-github"></i>
+        </div>
       </div>
-      <h2>Santos Pierre</h2>
-      <div class="info-job">
-
-      </div>
-      <div class="info-social">
-        <i></i>
-        <i></i>
-        <i></i>
-      </div>
-      <div class="info-panel">
-
-      </div>
-      <div class="info-cv">
-        <button><i></i> Download CV</button>
+      <div class="info-panel bg-gray-100 p-10 rounded-b-xl">
+        <div class="flex flex-col text-xl text-gray-800 px-5">
+          <p class="mb-6"><i class="fas fa-calendar mr-4"></i>13 Mai 1996</p>
+          <p class="mb-6"><i class="fas fa-map-marker-alt mr-4"></i>Bruxelles, Belgique</p>
+          <p class="mb-6"><i class="fas fa-envelope mr-4"></i>santospierre1305@gmail.com</p>
+          <p class="mb-6"><i class="fas fa-phone mr-4"></i>0477428638 </p>
+        </div>
+        <div class="info-cv text-center text-white text-xl">
+          <button class="mybtn bg-blue-700 rounded-xl px-10 py-3 btn-shadow-lg"><i class="fas fa-file-download mr-3"></i> Download CV</button>
+        </div>
       </div>
     </div>
     <div class="content"> 

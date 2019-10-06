@@ -54313,3 +54313,28 @@ video {
  * OWN STYLE
  */
 
+body{
+  font-family: 'Archivo', sans-serif;
+}
+
+.info-img{
+  top:-190px;
+  left: 25%;
+}
+
+.info-text{
+  height: 20rem;
+}
+.rounded-xl{
+  border-radius: 1.25rem;
+}
+.rounded-b-xl{
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+.mybtn{
+   background-color: rgb(45, 124, 254);
+}
+.btn-shadow-lg{
+  box-shadow: 0 10px 15px -3px rgba(45, 124, 254,0.1), 0 4px 6px -2px rgba(45, 124, 254, 0.5);
+}
